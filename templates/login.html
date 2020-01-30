@@ -1,0 +1,6 @@
+<form action="/verification" method="POST">
+    {% raw xsrf_form_html() %}
+    <input type="text" name="user">
+    <input type="password" name="pwd">
+    <button>Entrer !</button>
+</form>
